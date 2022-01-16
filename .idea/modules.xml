@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../day-30/Password Manager/.idea/Password Manager.iml" filepath="$PROJECT_DIR$/../../day-30/Password Manager/.idea/Password Manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/imageWatermarkingApp.iml" filepath="$PROJECT_DIR$/.idea/imageWatermarkingApp.iml" />
     </modules>
   </component>

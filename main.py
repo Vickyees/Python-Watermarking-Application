@@ -95,14 +95,14 @@ logo_tick_label.config(padx=5)
 empty_text = Label(text=" ", bg="white")
 empty_text.grid(row=5, column=1)
 
-logo_size_label = Label(text="Logo Size: ", fg="black", bg="white", font=("Ariel", 8))
+logo_size_label = Label(text="Logo Size(widthxheight): ", fg="black", bg="white", font=("Ariel", 8))
 logo_size_label.grid(row=6, column=0)
 
 logo_size = Entry(width=15)
 logo_size.grid(row=6, column=1, columnspan=2)
 logo_size.insert(0, f"{str(DEFAULT_LOGO_SIZE[0])}x{str(DEFAULT_LOGO_SIZE[1])}")
 
-logo_position_label = Label(text="Logo Position: ", fg="black", bg="white", font=("Ariel", 8))
+logo_position_label = Label(text="Logo Position(x,y): ", fg="black", bg="white", font=("Ariel", 8))
 logo_position_label.grid(row=7, column=0)
 
 logo_position = Entry(width=15)
@@ -120,14 +120,14 @@ text_entry.grid(row=10, column=0, columnspan=2)
 empty_text = Label(text=" ", bg="white")
 empty_text.grid(row=11, column=1)
 
-font_size_label = Label(text="Font Size: ", fg="black", bg="white", font=("Ariel", 8))
+font_size_label = Label(text="Font Size(in pixels): ", fg="black", bg="white", font=("Ariel", 8))
 font_size_label.grid(row=12, column=0)
 
 font_size = Entry(width=15)
 font_size.grid(row=12, column=1, columnspan=2)
 font_size.insert(0, str(DEFAULT_FONT_SIZE))
 
-font_position_label = Label(text="Font Position: ", fg="black", bg="white", font=("Ariel", 8))
+font_position_label = Label(text="Font Position(x,y): ", fg="black", bg="white", font=("Ariel", 8))
 font_position_label.grid(row=13, column=0)
 
 font_position = Entry(width=15)
